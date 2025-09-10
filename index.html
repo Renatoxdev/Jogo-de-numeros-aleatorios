@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jogo">
+    <div id="palavras">
+    <h1>Jogo de Adivinhação!</h1>
+    <h2>Eu escolhi um número de 1 à 100. Tente adivinhar!</h2>
+    <br>
+    <br>
+    <label for="tentativa">Seu chute: </label>
+    <input type="number" name="chute" id="tentativa" min='1' max="100">
+    <button id='verificar'>Verificar</button>
+    </div>
+
+    <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

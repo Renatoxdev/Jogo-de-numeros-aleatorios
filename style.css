@@ -1,0 +1,28 @@
+* {
+padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0
+}
+
+h2{
+
+}
+
+.jogo{
+      width: 25%; /* Define a largura */
+      margin: 20px auto; /* Centraliza o container */
+      padding: 15px; /* Espaçamento interno */
+      border: 1px solid #995e11; /* Borda */
+      background-color: #d3ecb6; /* Cor de fundo */
+      text-align: center;
+}
+
+#palavras{
+    color:#9c1076;
+}
+
+#tentativa{
+    background-color: rgb(255, 255, 255);
+}
