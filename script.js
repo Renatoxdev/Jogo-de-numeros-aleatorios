@@ -5,7 +5,8 @@ let tentativasRestantes = 10;
 // Selecionar os elementos do HTML
 const inputElement = document.getElementById('tentativa');
 const buttonElement = document.getElementById('verificar');
-const resultadoDiv = document.getElementById('resultado')
+const resultadoDiv = document.getElementById('resultado');
+const resetarDiv = document.getElementById('resetar');
 
 // Adicionar um "ouvinte de evento" ao botão
 buttonElement.addEventListener('click', verificarChute);
@@ -43,3 +44,7 @@ tentativasRestantes--;
     }
 
 }
+
+resetarDiv.addEventListener('click',function(){
+    window.location.reload()
+})
